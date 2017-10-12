@@ -1,0 +1,15 @@
+<?php
+	$username = "admin";
+	$password = "396220";
+	$nextURL = "/2jsstuff.html";
+	$un = $_POST["un"];
+	$pw = $_POST["pw"];
+	
+	
+	if($un == $username && $pw == $password){
+		echo $nextURL;
+	}
+	else {
+		echo 0;				
+	}
+?>

@@ -1,0 +1,13 @@
+<?php
+
+	$password = "<meta http-equiv='Content-Type' content='text/html charset=UTF-8'/>";
+
+	$pw = $_POST["pw"];
+	
+	if($pw == $password ){
+		echo "/11lololol/11lololol.html";
+	}
+	else {
+		echo "/10okbutseriouslythisisthelastone/10okbutseriouslythisisthelastone.html";				
+	}
+?>

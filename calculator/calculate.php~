@@ -1,0 +1,14 @@
+<?php
+	
+	$getURL = $_GET['request'];
+	
+	list($sumOne, $sumTwo) = explode("/",$getURL);
+	
+	echo $sumOne , $sumTwo;
+	
+	$file = "calculate.py " . $sumOne . " " . $sumTwo;
+	
+	echo $file;
+	exec($file);
+	
+?>
