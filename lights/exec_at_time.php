@@ -1,6 +1,6 @@
 <?php
 	define('DBHOST', 'localhost');
-	define('DBUSER', 'root');
+	define('DBUSER', 'admin');
 	define('DBPASS', 'tupac21');
 	define('DBNAME', 'myDB');
 	

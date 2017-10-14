@@ -10,7 +10,7 @@ button_pin = 16
 
 outputs = [GPIO.LOW,GPIO.HIGH]
 
-db = MySQLdb.connect(host="localhost", user="root", passwd="tupac21", db="myDB")
+db = MySQLdb.connect(host="localhost", user="admin", passwd="tupac21", db="myDB")
 cursor = db.cursor()
 # execute SQL select statement
 cursor.execute("UPDATE lights SET state = 0")
