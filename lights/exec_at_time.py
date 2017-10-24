@@ -34,7 +34,7 @@ while True:
 	
 	input = GPIO.input(button_pin)
 	if time.time() > last_tick_time + 1: 
-		db = MySQLdb.connect(host="localhost", user="root", passwd="tupac21",
+		db = MySQLdb.connect(host="localhost", user="admin", passwd="tupac21",
 		db="myDB")
 		cursor = db.cursor()
 		# execute SQL select statement
@@ -74,7 +74,7 @@ while True:
 			
 	if not prev_input and input:
 
-		db = MySQLdb.connect(host="localhost", user="root", passwd="tupac21", db="myDB")
+		db = MySQLdb.connect(host="localhost", user="admin", passwd="tupac21", db="myDB")
 		cursor = db.cursor()
 		# execute SQL select statement
 		cursor.execute("SELECT state FROM lights WHERE id = 'Lights'")

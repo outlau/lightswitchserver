@@ -27,7 +27,7 @@
 			while($row =mysql_fetch_array($res)){
 	
 				echo $row["id"] ."/" .$row["state"] . "/";
-				//echo "bruhhhhh";
+				
 			}
 		}
 	}
@@ -57,5 +57,4 @@
 			exec($destination);
 		}
 	}
-	
 ?>
